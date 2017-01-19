@@ -24,6 +24,7 @@ class ToolsController < ApplicationController
 
 	def show
 		#Rails.logger.debug params.inspect
+		#
 		render layout: "applicationtool"
 	end
 
